@@ -12,6 +12,7 @@
 		77141E1B2122FD7900A74269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77141E192122FD7900A74269 /* Main.storyboard */; };
 		77141E1D2122FD7C00A74269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77141E1C2122FD7C00A74269 /* Assets.xcassets */; };
 		77141E202122FD7C00A74269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77141E1E2122FD7C00A74269 /* LaunchScreen.storyboard */; };
+		77141E282122FE5600A74269 /* QuranAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77141E272122FE5600A74269 /* QuranAudioPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		77141E1C2122FD7C00A74269 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77141E1F2122FD7C00A74269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77141E212122FD7C00A74269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77141E272122FE5600A74269 /* QuranAudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuranAudioPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				77141E152122FD7900A74269 /* AppDelegate.swift */,
 				77141E172122FD7900A74269 /* ViewController.swift */,
+				77141E272122FE5600A74269 /* QuranAudioPlayer.swift */,
 				77141E192122FD7900A74269 /* Main.storyboard */,
 				77141E1C2122FD7C00A74269 /* Assets.xcassets */,
 				77141E1E2122FD7C00A74269 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77141E182122FD7900A74269 /* ViewController.swift in Sources */,
+				77141E282122FE5600A74269 /* QuranAudioPlayer.swift in Sources */,
 				77141E162122FD7900A74269 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
